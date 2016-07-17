@@ -73,7 +73,6 @@ template = '''
 # ------------------------------------------------- MAIN -----------------------------------------------------#
 # ------------------------------------------------------------------------------------------------------------#
 def make_d3_phylogram(output_dir: str, tree: Bio.Phylo.Newick.Tree, otu_metadata: qiime.Metadata) -> None:
-    output_dir = '.'
 
     mapping_df = otu_metadata.to_dataframe()
 
