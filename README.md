@@ -11,6 +11,8 @@ Assuming [QIIME2 has been installed](https://github.com/qiime2/qiime2/wiki/Insta
 
 ```pip install https://github.com/ConstantinoSchillebeeckx/q2-phylogram/archive/master.zip```
 
+Check that the plugin is properly installed by listing all installed plugins with `qiime info`
+
 ## Usage
 
 Convert input Newick tree to QIIME2 artifact:
